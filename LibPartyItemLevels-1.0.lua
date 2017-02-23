@@ -125,7 +125,7 @@ local function updateItemLevelFor(unit)
       ilvl = total / items,
       time = GetTime()
     }
-    lib.callbacks:Fire("ItemLevelUpdated", unit, key, cache[key].ilvl)
+    lib.callbacks:Fire("ItemLevelUpdated", unit, cache[key].ilvl)
   end
 end
 
