@@ -1,0 +1,12 @@
+## Interface: 70100
+## Title: LibPartyItemLevels
+## Notes: A library that pulls and caches party item levels
+## Author: Antiarc
+## Version: v0.1
+
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+#@end-no-lib-strip@
+
+LibPartyItemLevels-1.0.lua
