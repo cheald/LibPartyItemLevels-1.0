@@ -73,7 +73,6 @@ local function startInspect(unit)
 end
 
 local function inspectNextUnit()
-  ClearInspectPlayer()
   local hasInspectUnit = (InspectFrame and (InspectFrame.unit or InspectFrame:IsShown()))
   if not (inspecting or UnitAffectingCombat("player") or #inspectQueue == 0 or hasInspectUnit) then
     local unit = table.remove(inspectQueue, 1)
